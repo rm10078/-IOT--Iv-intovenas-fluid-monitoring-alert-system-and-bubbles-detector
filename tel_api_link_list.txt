@@ -1,0 +1,12 @@
+https://api.telegram.org/bot5415006207:AAGpvOblJ9XLM71jBltrmdSost-yWZIMIH0/sendMessage?chat_id=829301848&text=Hello_the_bot_is_working.
+
+
+
+For send msg
+
+https://api.telegram.org/bot<token>/sendMessage?chat_id=<chat ID>&text=<MSG>
+
+
+See updates
+
+https://api.telegram.org/bot<your-bot-token>/getUpdates

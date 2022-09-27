@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offlinepage</title>
+    <style>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(19, 25, 26);   
+}
+.text_dcolor{
+    color: white;
+}
+.title{
+    margin-top: 2vw;
+    text-align: center;
+    font-style: oblique;
+    font-size: 8vw;
+}
+.sub_title{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 3vw;
+    width: 80vw;
+    height: 30vw;
+    border-radius: 2vw;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    box-shadow: 0 0 2vw rgb(0, 255, 221);
+}
+.subinfo{
+    margin: auto;
+    border-radius: 2vw;
+    width: 22vw;
+    height: 24vw;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 2vw rgb(41, 255, 91);
+}
+.subinfo h1{
+    margin-top:6vw;
+    font-size: 4vw;
+    color: rgb(0, 0, 0);
+}
+.control{
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    width: 80vw;
+    height: auto;
+}
+.control button{
+    width: 22vw;
+    height: auto;
+    font-size: 3vw;
+    border-radius: 2vw;
+}
+.start_but{
+    padding: 0.5vw;
+    box-shadow: 0 0 1vw #0166d3;
+    color: white;
+    background-color: #4ad5ff;
+    border-style: none;
+}
+.stop_but{
+    padding: 0.5vw;
+    margin-left: 10vw;
+    box-shadow: 0 0 1vw rgb(185, 0, 108);
+    color: white;
+    background-color: rgb(255, 46, 168);
+    border-style: none;
+}
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 7vw;
+    }
+    .sub_title{
+        font-size: 2.5vw;
+    }
+    .info{
+        flex-direction: column;
+        width: 80vw;
+        height: auto;
+        padding-bottom: 3vw;
+    }
+    .subinfo{
+        margin: auto;
+        width: 60vw;
+        height: 60vw;
+        margin-top: 5vw;
+    }
+    .subinfo h1{
+        margin-top: 18vw;
+        font-size: 11vw;
+    }
+    .stop_but{
+        margin-left: 20vw;
+    }
+    .control button{
+        height: auto;
+        font-size: 5vw;
+    }
+    .control{
+        margin-bottom: 10vw;
+    }
+}
+    </style>
+
+</head>
+<body>
+    <div><h1 class="text_dcolor title">IV Monitoring and alart</h1></div>
+    <div class="text_dcolor sub_title">
+        <h2>Present Name: abcd </h2>
+        <h2>Bad number: 987654321</h2>
+        <h2>Device ID: 987654321</h2>
+    </div>
+
+    <div class="info">
+        <div class="subinfo si0">
+            <h2>Flow status</h2>
+            <h1>FLOW</h1>
+        </div>
+        <div class="subinfo si1">
+            <h2>Fluid stats</h2>
+            <h1>100%</h1>
+        </div>
+        <div class="subinfo si2">
+            <h2>Drip rate(gtts/min)</h2>
+            <h1>20</h1>
+        </div>
+    </div>
+
+    <div class="info">
+        <div class="subinfo si0">
+            <h2>Flow status</h2>
+            <h1>FLOW</h1>
+        </div>
+        <div class="subinfo si1">
+            <h2>Fluid stats</h2>
+            <h1>100%</h1>
+        </div>
+        <div class="subinfo si2">
+            <h2>Drip rate(gtts/min)</h2>
+            <h1>20</h1>
+        </div>
+    </div>
+
+    <div class="control">
+        <button class="start_but" onclick="startbut()">Start flow</button>
+        <button class="stop_but" onclick="stopbut()">Stop flow</button>
+    </div>
+</body>
+<script>
+    console.log("Hello world");
+function startbut() {
+    console.log("start");
+}
+function stopbut(params) {
+    console.log("stop");
+}
+</script>
+</html>

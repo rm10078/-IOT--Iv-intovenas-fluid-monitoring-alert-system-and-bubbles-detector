@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>*{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(51, 51, 51);
+    }
+    .mtitle{
+        text-align: center;
+        font-family: cursive;
+        color: white;
+    }
+    .mtitle h1{
+        font-size: 5vw;
+    }
+    .main{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 3vw;
+    }
+    .subdiv{
+        background-color: rgb(214, 247, 255);
+        border-radius: 2vw;
+        border-style: solid;
+        border-color: rgb(120, 250, 255);
+        box-shadow: 0 0 1vw rgb(0, 225, 255);
+        width: 20%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 2vw;
+        padding-top: 1vw;
+    }
+    
+    @media only screen and (max-width: 600px) {
+    .main{
+        flex-direction: column;
+    }
+    .mtitle h1{
+        font-size: 9vw;
+    }
+    .subdiv{
+        width: 80%;
+        margin-top: 2vw;
+        padding-bottom: 4vw;
+    }
+    .subdiv h3{
+        font-size: 5vw;
+    }
+    }</style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="mtitle">
+        <h1>IV monitoring and alart</h1>
+        <h3>P_name:</h3>
+        <h3>Bad number:</h3>
+    </div>
+    <div class="main">
+        <div class="subdiv">
+            <h3>Total Fluid</h3>
+            <h1>100g</h1>
+        </div>
+        <div class="subdiv">
+            <h3>Deliverd Fluid</h3>
+            <h1>100g</h1>
+        </div>
+        <div class="subdiv">
+            <h3>Present Fluid</h3>
+            <h1>100g</h1>
+        </div>
+        <div class="subdiv">
+            <h3>Drop rate</h3>
+            <h1>100g</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="subdiv">
+            <h3>Alart point</h3>
+            <h1>350mg</h1>
+        </div>
+    </div>
+</body>
+</html>
