@@ -71,7 +71,7 @@ Restart the device.
 ![App Screenshot](https://github.com/rm10078/-IOT--Iv-intovenas-fluid-monitoring-alert-system-and-bubbles-detector/blob/main/image/alert_ss.png?raw=true)
 
 ## For more information watch this video.
-- [@video](jshgsfgshjdhgs)
+- [@video](https://youtu.be/ULRAC_1f-9c)
 
 # About me
 I am a diploma engineer. Currently i am pursuing Bachelor in technology. I am a 3nd year Applied Electronics and Instrumentation engineering student.
